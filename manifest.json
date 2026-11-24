@@ -1,0 +1,27 @@
+{
+  "manifestVersion": 2,
+  "id": "notebook-stats",
+  "name": "Notebook stats",
+  "version": "1.1.0",
+  "description": "How much each source in the notebook holds, as bars, with its format.",
+  "author": "better-vault",
+  "icon": "chart",
+  "permissions": [
+    "read:sources"
+  ],
+  "tags": [
+    "sources",
+    "stats",
+    "charts"
+  ],
+  "contributes": {
+    "panels": [
+      {
+        "id": "stats",
+        "title": "Notebook stats",
+        "slot": "studio",
+        "entry": "index.html"
+      }
+    ]
+  }
+}
